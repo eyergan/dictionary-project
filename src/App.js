@@ -1,4 +1,6 @@
+import React from "react";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -6,8 +8,11 @@ function App() {
       <header className="App-header">
         <h1>Dictionary</h1>
       </header>
-      <footer className="text-center">
-        Coded by Evy Yergan and Open Sourced
+      <main>
+        <Dictionary />
+      </main>
+      <footer className="App-footer">
+        <small>Coded by Evy Yergan and Open Sourced</small>
       </footer>
     </div>
   );
